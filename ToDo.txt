@@ -1,0 +1,41 @@
+<loriel> Das UI könnte man noch verbessern, kA.
+<flgr> hey, man kann die menüs per mausrad bedienen ;)
+<loriel> Schokolade anklicken -> Figur läuft schonmal nach links weg, weil das Schokoladenicon links von ihr ist
+<loriel> Wenn man die Icons da per Mausrad anwählen könnte, wäre das schonmal was .
+
+<loriel> Sollten die LevelTips nicht in Levels/*.txt gespeichert sein?
+
+---------
+
+Grafiken:
+
+- Bett
+- Tapeten
+- Spinnennetz
+- Moebilar
+- Titlescreen / Levelscreen / Ending
+- Essen en masse
+
+Sounds:
+
+- Bewegen
+- Schlafgeraeusche(?)
+- Musik
+- Zaubergeraeusche
+- Menumusik / Geraeusche
+- Einsammeln von Zeuch
+
+
+Zauber:
+
+- Eis
+- Wasser (zum loeschen von Feuer, wer haette das gedacht)
+- Luft pusten (Wirbelsturm, wasweissich, um halt Sachen zu bewegen)
+
+
+General:
+
+- Levels
+- Storytechnisch: Start/Ziel = Bett?, warum schlafwandelt sie immer wieder in nem anderen Haus? ^^
+- Outtakes :>
+- Ingame Intro/Outro ?
