@@ -14,7 +14,7 @@ class Menu < SubApp
     @last_frame = 0
 
     @visible_entries = @entries.find_all do |(text, action, cond)|
-      cond.nil? || instance_eval(&cond)
+      cond.nil? || cond.call
     end
   end
   
@@ -26,7 +26,7 @@ class Menu < SubApp
         @selection = (@selection + 1) % @visible_entries.size
       when *Buttons[:Fire] then
         text, action, cond = *@visible_entries[@selection]
-        instance_eval(&action)
+        action.call
       when *Buttons[:Escape] then
         game = @game_getter.call()
         game.show if game
