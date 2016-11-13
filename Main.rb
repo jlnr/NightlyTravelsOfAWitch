@@ -1,9 +1,6 @@
 $LOAD_PATH.unshift('.')
 
-begin
-  require 'rubygems'
-rescue
-end
+require 'bundler/setup'
 require 'gosu'
 require 'zorder'
 require 'items'
@@ -13,9 +10,6 @@ require 'game'
 require 'password'
 require 'levelstats'
 require 'digest/sha1'
-
-# Collecting libs for RubyScript2Exe -> Exit.
-exit if defined?(REQUIRE2LIB)
 
 include Gosu
 
